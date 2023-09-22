@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+    font-family: "Arial", sans-serif;
+    letter-spacing: 0.5px;
+    background-color: #f4f4f4;
+    background-image: url('');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #333;
+}
+
+#page {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image: url('https://images.pexels.com/photos/950241/pexels-photo-950241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto 25px auto;
+}
+
+ul {
+    width: 100%;
+    padding: 15px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    list-style: none;
+    background-color: #fff;
+}
+
+li {
+    display: inline;
+    margin: 0 20px;
+}
+
+p {
+    text-align: center;
+    max-width: 800px;
+    margin: 30px auto;
+    font-weight: normal;
+}
+
+a {
+    color: #2980b9;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: 2px solid #2980b9;
+    border-radius: 6px;
+    transition: all 0.3s ease-in-out;
+    background-color: transparent;
+    font-weight: bold;
+}
+
+a:hover, a.on {
+    background-color: #2980b9;
+    color: #fff;
+}
+
+a:hover {
+    transform: scale(1.05);
+}
