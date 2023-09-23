@@ -13,26 +13,24 @@ body {
 }
 
 #page {
-    max-width: 1400px;
+    max-width: 1000px;
     margin: 20px auto;
-    padding: 40px;
+    padding: 20px;
     background-image: url('https://images.pexels.com/photos/950241/pexels-photo-950241.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
     border: 1px solid #e0e0e0;
     border-radius: 10px;
-    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
 }
 
 #logo {
-    max-width: 250px;
+    max-width: 100%;
     display: block;
-    margin: 0 auto 30px auto;
-
+    margin: 0 auto 20px auto;
 }
+
 ul {
     width: 100%;
-    padding: 20px 0;
-    border-top: 2px solid #fff;
-    border-bottom: 2px solid #fff;
+    padding: 10px 0;
     text-align: center;
     list-style: none;
     background-color: #444;
@@ -40,20 +38,19 @@ ul {
 
 li {
     display: inline;
-    margin: 0 30px;
+    margin: 0 15px;
 }
 
 p {
     text-align: center;
-    max-width: 900px;
-    margin: 40px auto;
+    margin: 20px auto;
 }
 
 a {
     color: #fff;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 12px 24px;
+    padding: 10px 20px;
     border: 2px solid #fff;
     border-radius: 8px;
     transition: all 0.3s ease-in-out;
@@ -69,5 +66,36 @@ a:hover {
 #page:hover {
     transform: translateY(-5px);
     transition: transform 0.3s ease-in-out;
+}
+
+
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
+
+    #page {
+        padding: 10px;
+    }
+
+    #logo {
+        margin: 0 auto 10px auto;
+    }
+
+    ul {
+        padding: 5px 0;
+    }
+
+    li {
+        margin: 0 10px;
+    }
+
+    p {
+        margin: 10px auto;
+    }
+
+    a {
+        padding: 8px 16px;
+    }
 }
 
